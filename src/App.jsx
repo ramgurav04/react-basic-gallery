@@ -5,7 +5,7 @@ const PAGE_LIMIT = 30;
 function Frame({ photo, orderNum }) {
   const [loaded, setLoaded] = useState(false);
   const [failed, setFailed] = useState(false);
-  const thumbUrl = `https://picsum.photos/id/${photo.id}/400/${Math.round(
+  const thumbUrl = `https://picsum.photos/id/${photo.id+1}/400/${Math.round(
     (400 * photo.height) / photo.width
   )}`;
 
