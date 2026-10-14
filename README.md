@@ -1,16 +1,105 @@
-# React + Vite
+# React Basic Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive image gallery built with React. This project demonstrates the fundamentals of React components and creating a clean gallery interface.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [react-basic-gallery.vercel.app](https://react-basic-gallery.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+💻 **GitHub Repository:** [react-basic-gallery](https://github.com/ramgurav04/react-basic-gallery)
 
-## React Compiler
+## About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React Basic Gallery is a beginner-friendly frontend project created to practice React development and build an interactive image gallery. It focuses on component-based development, reusable UI elements, and responsive design.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Clean and simple user interface
+- Image gallery layout
+- Responsive design for different screen sizes
+- Reusable React components
+- Fast development and build process
+
+## Tech Stack
+
+- **React** – Building user interfaces
+- **JavaScript** – Application logic
+- **Vite** – Development and build tool
+- **CSS** – Styling and layout
+- **Vercel** – Deployment
+
+## Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ramgurav04/react-basic-gallery.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd react-basic-gallery
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## Project Structure
+
+```text
+react-basic-gallery/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+*Note: Adjust the folder structure above to match your actual repository.*
+
+## Learning Outcomes
+
+- Understanding React components and JSX
+- Organizing frontend project files
+- Creating image gallery layouts
+- Applying CSS for responsive interfaces
+- Running and deploying a React application
+
+## Live Preview
+
+Explore the project: [React Basic Gallery](https://react-basic-gallery.vercel.app/)
+
+## Author
+
+**Ram Gurav**
+
+- GitHub: [@ramgurav04](https://github.com/ramgurav04)
+- LinkedIn: [Ram Gurav](https://www.linkedin.com/in/ram-gurav-b45453399/)
+
+---
+
+If you like this project, feel free to explore the source code and share your feedback.
